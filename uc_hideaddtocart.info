@@ -1,0 +1,4 @@
+name = Ubercart Hide Add to Cart
+description = This module will hide the add to cart form on node views.
+version = "6.x-1.x"
+core = 6.x

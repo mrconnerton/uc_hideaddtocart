@@ -1,0 +1,8 @@
+<?php
+// $Id$
+
+  function uc_hideaddtocart_nodeapi(&$node, $op){
+    if($op == 'view'){
+      dsm($node);
+    }
+  }
