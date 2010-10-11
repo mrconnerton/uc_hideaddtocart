@@ -1,8 +1,12 @@
 <?php
 // $Id$
 
+
+
   function uc_hideaddtocart_nodeapi(&$node, $op){
     if($op == 'view'){
-      dsm($node);
+      if(isset($node->content['add_to_cart'])){
+        unset($node->content['add_to_cart']);
+      }
     }
   }
